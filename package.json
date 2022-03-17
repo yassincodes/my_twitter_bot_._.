@@ -1,6 +1,33 @@
 {
   "name": "twitter_bot",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meddyassin/my_twitter_bot_._..git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meddyassin/my_twitter_bot_._./issues"
+  },
+  "homepage": "https://github.com/meddyassin/my_twitter_bot_._.#readme",
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "@types/node-fetch": "^2.6.1",
+    "@types/twitter": "^1.7.1",
+    "puppeteer": "^13.5.1",
+    "twitter": "^1.7.1",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "tsc-node": "0.0.3"
+  }
 }
